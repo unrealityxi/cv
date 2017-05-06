@@ -40,14 +40,10 @@ ul {
   box-sizing: border-box;
   position: relative;
   top: -37px;
-  left: 50px;
+  left: 15px;
   
 }
 
-.col-right>img {
-  margin-left: 0;
-  padding-left: 0;
-}
 .container {
   width: 700px; 
   margin: auto;
