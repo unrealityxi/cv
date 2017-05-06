@@ -31,8 +31,10 @@ ul {
 .col-left, .col-mid, .col-right {
   display: inline-block;
   font-size: 0.7rem;
-  
+}
 
+.col-left {
+  margin-right: 80px;
 }
 
 .col-right {
@@ -40,7 +42,7 @@ ul {
   box-sizing: border-box;
   position: relative;
   top: -37px;
-  left: 15px;
+  left: 40px;
   
 }
 
