@@ -96,8 +96,12 @@ ul {
 
 .info-section  ul {
   border-left: 4px solid rgb(0, 174, 238);
-  padding-left: 5px;
   margin-left: 27px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  padding-left: 20px;
+  text-indent: -10px;
 }
 
 .info-section ul > li {
@@ -124,4 +128,8 @@ ul {
 a {
   color: rgb(0, 174, 238);
   text-decoration: none;
+}
+
+.text-large {
+  font-size: 18px;
 }
