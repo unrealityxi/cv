@@ -104,11 +104,11 @@ ul {
   text-indent: -10px;
 }
 
-.info-section ul > li {
+.info-section ul  li {
   padding: 5px 2px;
 }
 
-.info-section > p {
+.info-section  p {
   display: inline-block;
   width: 45%;
   padding-left: 29px;
@@ -132,4 +132,38 @@ a {
 
 .text-large {
   font-size: 18px;
+}
+
+.position-title-wrapper {
+  padding: 10px 0;
+}
+
+.work-timespan {
+  text-align: right;
+}
+
+.position-title-wrapper .work-timespan {
+  position: relative; 
+  right: -15px
+}
+
+.list-heading {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px !important;
+}
+
+.position-title {
+  font-size: 18px;
+}
+
+.position-timespan {
+  font-size: 0.7rem;
+  font-style: italic;
+  
+}
+
+.subheading {
+  letter-spacing: 0.1rem;
 }
